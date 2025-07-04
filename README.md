@@ -6,7 +6,7 @@
   Hajee Mohammad Danesh Science and Technology University,Dinajpur-5200.
 </h3>
 <h3 align="center">
-<b></b>Project Name: SafeLock-Cipher-A-New-Approach-to-Lightweight-Data-Encryption<b></b>
+<b></b>Project Name: SafeLock Cipher A New Approach to Lightweight Data Encryption<b></b>
 </h3>
 
 <h3 align="center">
