@@ -167,8 +167,8 @@ Return join(P)
 ```mermaid
 flowchart TD
     A[Start] --> B[Input Plaintext P, Key K]
-    B --> C[Loop through each char i in P]
-    C --> D[Get ASCII of P[i] and K[i mod len(K)]]
+    B --> C[Loop through each character in P]
+    C --> D[Get ASCII values of P and K at index i mod length of K]
     D --> E[Perform XOR]
     E --> F[Add i-th Prime]
     F --> G[Add Index i]
@@ -176,6 +176,7 @@ flowchart TD
     H --> I{More Characters?}
     I -- Yes --> C
     I -- No --> J[Return Cipher]
+
 ```
 
 ### 🔁 Decryption Flowchart
@@ -186,12 +187,13 @@ flowchart TD
     B --> C[Loop through each byte i in C]
     C --> D[Subtract Index i]
     D --> E[Subtract i-th Prime]
-    E --> F[XOR with K[i mod len(K)]]
+    E --> F[XOR with K i mod len K]
     F --> G[Convert to Char]
     G --> H[Append to Plaintext]
     H --> I{More Bytes?}
     I -- Yes --> C
     I -- No --> J[Return Plaintext]
+
 ```
 
 ---
