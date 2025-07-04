@@ -53,7 +53,7 @@ SafeLock Cipher uses a **3-phase transformation** approach:
 2. **Prime Number Shifting**: Applies position-dependent prime offsets.
 3. **ASCII Offset Modulation**: Introduces further diffusion based on character index.
 
-> 🔁 **Symmetric Key Cipher** – The same key is used for both encryption and decryption.
+>  **Symmetric Key Cipher** – The same key is used for both encryption and decryption.
 
 ---
 
@@ -82,7 +82,7 @@ Steps to Encrypt
 
  Decryption Algorithm
 
-### 🔓 Steps to Decrypt
+### Steps to Decrypt
 **Input**:  
 - `Ciphertext C` (list of int)  
 - `Key K` (string)
@@ -99,9 +99,9 @@ Steps to Encrypt
 
 ---
 
-## ✅ 5. Example Test Case
+##  5. Example Test Case
 
-### 🧪 Example:  
+###  Example:  
 **Plaintext** = `"HELLO"`  
 **Key** = `"KEY"`
 
@@ -116,16 +116,16 @@ Steps to Encrypt
 **Encrypted Bytes (Ciphertext)**:  
 `\x05 \x04 \x1C \x11 \x19` → `[5, 4, 28, 17, 25]`
 
-### 🔓 Decryption:
+### Decryption:
 - Subtract index: `[5, 3, 26, 14, 21]`
 - Subtract primes: `[3, 0, 21, 7, 10]`
 - XOR with key: `[72, 69, 76, 76, 79]` → `"HELLO"`
 
 ---
 
-## ✅ 6. Pseudocode
+## 6. Pseudocode
 
-### 🔐 Encryption
+###  Encryption
 ```plaintext
 Input: plaintext P, key K
 Output: ciphertext C
@@ -142,7 +142,7 @@ For i = 0 to len(P)-1:
 Return C
 ```
 
-### 🔓 Decryption
+###  Decryption
 ```plaintext
 Input: ciphertext C, key K
 Output: plaintext P
@@ -160,9 +160,9 @@ Return join(P)
 
 ---
 
-## ✅ 7. Flowcharts
+##  7. Flowcharts
 
-### 🔄 Encryption Flowchart
+###  Encryption Flowchart
 
 ```mermaid
 flowchart TD
@@ -179,7 +179,7 @@ flowchart TD
 
 ```
 
-### 🔁 Decryption Flowchart
+###  Decryption Flowchart
 
 ```mermaid
 flowchart TD
@@ -198,7 +198,7 @@ flowchart TD
 
 ---
 
-## ✅ 8. Python Source Code
+##  8. Python Source Code
 
 ```python
 def is_prime(n):
@@ -249,26 +249,26 @@ print("Decrypted:", pt2)
 
 ---
 
-## ✅ 9. Advantages & Disadvantages
+##  9. Advantages & Disadvantages
 
-### ✅ Advantages
-- ✅ Simple and intuitive for beginners in cryptography
-- ✅ Uses **bitwise, prime logic, and modular arithmetic**
-- ✅ Harder to break with basic frequency analysis
-- ✅ Symmetric cipher: Same key simplifies management
-- ✅ Customizable strength with key and length
+###  Advantages
+-  Simple and intuitive for beginners in cryptography
+-  Uses **bitwise, prime logic, and modular arithmetic**
+-  Harder to break with basic frequency analysis
+-  Symmetric cipher: Same key simplifies management
+-  Customizable strength with key and length
 
-### ❌ Disadvantages
-- ❌ Not resistant to advanced cryptanalysis (e.g. chosen plaintext attacks)
-- ❌ Key reuse can expose XOR layer vulnerabilities
-- ❌ Performance declines for very large texts due to prime generation
-- ❌ Not suitable for industrial-grade security without improvements
+### Disadvantages
+-  Not resistant to advanced cryptanalysis (e.g. chosen plaintext attacks)
+-  Key reuse can expose XOR layer vulnerabilities
+-  Performance declines for very large texts due to prime generation
+-  Not suitable for industrial-grade security without improvements
 
 ---
 
-## ✅ 10. Applications & Use Cases
+##  10. Applications & Use Cases
 
-- 🧑‍🏫 Educational demo of hybrid encryption schemes
-- 🛡️ Simple protection for short sensitive messages (notes, configs)
-- 🧪 Experimental design for layered encryption methods
-- 🔬 Suitable for demonstrating encryption concepts in **Cryptography/Mathematics** courses
+-  Educational demo of hybrid encryption schemes
+-  Simple protection for short sensitive messages (notes, configs)
+-  Experimental design for layered encryption methods
+-  Suitable for demonstrating encryption concepts in **Cryptography/Mathematics** courses
