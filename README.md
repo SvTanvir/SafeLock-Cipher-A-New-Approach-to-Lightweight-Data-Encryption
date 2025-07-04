@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hstu_logo_.png" alt="HSTU Logo" width="250" height="300">
+  <img src="hstu.jpg" alt="HSTU Logo" width="250" height="300">
 </p>
 
 <h3 align="center">
