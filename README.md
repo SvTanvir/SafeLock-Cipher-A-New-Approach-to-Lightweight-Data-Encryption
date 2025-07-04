@@ -6,20 +6,20 @@
   Hajee Mohammad Danesh Science and Technology University,Dinajpur-5200.
 </h3>
 <h3 align="center">
-<b></b>Project Name: CodeCraft-Smart Contest Analysis System<b></b>
+<b></b>Project Name: SafeLock-Cipher-A-New-Approach-to-Lightweight-Data-Encryption<b></b>
 </h3>
 
 <h3 align="center">
-  Course Title: Software Engineering
+  Course Title: Mathematical Analysis for Computer Science
 </h3>
 
 <h3 align="center">
-  Course Code: CSE 305
+  Course Code: CSE 361
 </h3>
 <br>
 <h1 align="center">Submitted By</h1>
 
- <p align="center">Sultan Mahamud Opu<br>Student ID: 2102040<br>Level: 3 Semester: I<br>Department of Computer Science and Engineering</p>
+ <p align="center">Md. Tanvir Ahmmed Shuvo<br>Student ID: 2102054<br>Level: 3 Semester: II<br>Department of Computer Science and Engineering</p>
  <br>
 
 <h1 align="center">Submitted To</h1>
@@ -39,15 +39,15 @@ Designed for **educational and lightweight cryptographic applications**, SafeLoc
 
 ---
 
-##  1. Algorithm Title
+# 1. Algorithm Title
 **SafeLock Cipher: A New Approach to Lightweight Data Encryption**  
 > _A hybrid character-level encryption scheme using bitwise XOR, prime rotation, and ASCII modulation._
 
 ---
 
-## ✅ 2. Algorithm Design
+#2. Algorithm Design
 
-### 📌 Basic Concept
+ Basic Concept
 SafeLock Cipher uses a **3-phase transformation** approach:
 1. **XOR Operation**: Introduces key-based scrambling.
 2. **Prime Number Shifting**: Applies position-dependent prime offsets.
@@ -57,9 +57,9 @@ SafeLock Cipher uses a **3-phase transformation** approach:
 
 ---
 
-## ✅ 3. Encryption Algorithm
+ 3. Encryption Algorithm
 
-### 🔐 Steps to Encrypt
+Steps to Encrypt
 **Input**:  
 - `Plaintext P` (string)  
 - `Key K` (string)
@@ -80,7 +80,7 @@ SafeLock Cipher uses a **3-phase transformation** approach:
 
 ---
 
-## ✅ 4. Decryption Algorithm
+ Decryption Algorithm
 
 ### 🔓 Steps to Decrypt
 **Input**:  
